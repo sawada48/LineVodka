@@ -257,6 +257,7 @@ tracer.addOpInterrupt(25,SEND_MESSAGE)
 
 while True:
     tracer.execute()
+
 if msg.text in ["tagall"]:
 
     group = client.getGroup(msg.to)
